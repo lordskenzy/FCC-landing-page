@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="landing-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Mercedes_Benz_Logo_11.jpg/800px-Mercedes_Benz_Logo_11.jpg?20130508224951"
+            id="header-img" alt="mercedes-img">
+        <nav id="nav-bar">
+            <a href="#Models" class="nav-link">
+                <p>Models</p>
+            </a>
+            <a href="#generation" class="nav-link">
+                <p>Generation</p>
+            </a>
+            <a href="#pricing" class="nav-link">
+                <p>Pricing</p>
+            </a>
+        </nav>
+    </header>
+    <main id="main">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <P>Mercedes GLE </P>
+            <input type="email" name="email" placeholder="Enter your email" id="email">
+            <br>
+            <input type="submit" id="submit" value="subscribe">
+        </form>
+        <section id="Models">
+            <article>
+                <div class="icon-div">
+                    <i class="fa-solid fa-list"></i>
+                </div>
+                <div>
+                    <h3>SUV</h3>
+                    <form action="">
+                        <label for="dropdown"></label>
+                        <p>THEY ARE 3 CLASSES OF THE MERCEDES GLE</p>
+                </div>
+            </article>
+            <article>
+                <div class="icon-div">
+                    <i class="fa-solid fa-calendar"></i>
+                </div>
+                <div>
+                    <h3>Generation</h3>
+                    <p>Artificial Intelligence and true engineering genius have created the most technologically
+                        advanced GLE yet. Its intuitive voice assistant and countless driving innovations are backed up
+                        by turbo power and stylish luxury for up to seven.</p>
+                </div>
+            </article>
+
+            <article>
+                <div class="icon-div">
+                    <i class="fa-solid fa-tags"></i>
+                </div>
+                <div>
+                    <h3>Pricing</h3>
+                    <p>Artificial Intelligence and true engineering genius have created the most technologically
+                        advanced GLE yet. Its intuitive voice assistant and countless driving innovations are backed up
+                        by turbo power and stylish luxury for up to seven.</p>
+                </div>
+            </article>
+        </section>
+        <section id="generation">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/HggDvLvkCUE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+        <section id="pricing">
+            <div class="cards">
+                <h3 class="product">SUV</h3>
+                <h3 class="price">The SUV ranges from $250,000.00</h3>
+                <p>GLE 65</p>
+                <p>GLE 300</p>
+                <p>GLE 350</p>
+            </div>
+            <div class="cards">
+                <h3 class="product">LUXRY</h3>
+                <h3 class="price">The LUXRY ranges from $330,000.00</h3>
+                <p>4MATIC 250</p>
+                <p>4MATIC 300</p>
+                <p>4MATIC 350</p>
+            </div>
+            <div class="cards">
+                <h3 class="product">SPORTS</h3>
+                <h3 class="price">The SPORTS ranges from $450,000.00</h3>
+                <p>AMG 250</p>
+                <p>AMG 63</p>
+                <p>AMG 350</p>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
